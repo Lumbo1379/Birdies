@@ -1,0 +1,3 @@
+C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\Definitions.MyProject.h
+C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Source\MyProject\MyUtils.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineUtils.h
