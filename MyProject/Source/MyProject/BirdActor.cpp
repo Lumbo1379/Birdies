@@ -80,7 +80,7 @@ void ABirdActor::Tick(float DeltaTime)
 	Speed = FMath::Clamp<float>(Speed + SpeedScalar, 0, MaxVelocity);
 	Velocity = newRotation * FVector::ForwardVector * Speed;
 
-	SetActorLocationAndRotation(GetActorLocation() + Velocity * DeltaTime, FRotationMatrix::MakeFromY(Velocity).Rotator());
+	SetActorLocationAndRotation(GetActorLocation() + Velocity * DeltaTime, FRotationMatrix::MakeFromY(Velocity).Rotator().Quaternion() * FRotator(270, 0, 0).Quaternion());
 }
 
 void ABirdActor::SetBirdContainer(TArray<ABirdActor*>* BirdsContainer)
