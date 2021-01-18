@@ -45,11 +45,12 @@ ABirdActor::ABirdActor()
 
 	MaxVelocity = 200;
 	Velocity = { 50, 100, 25 };
-	Radius = 1000;
+	Radius = 500;
 	SeparationRadius = 200;
 	CohesionScalar = 1;
 	AlignmentScalar = 1;
 	SeparationScalar = 2;
+	AvoidanceLength = 50.0f;
 	SpeedScalar = 300;
 	RotationScalar = 3;
 }
@@ -68,13 +69,27 @@ void ABirdActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	TArray<ABirdActor*> birdsInRadius = GetBirdsInRadius(Radius);
+	TArray<ABirdActor*> birdsInRadius;
 
 	FVector newVelocityDirection = Velocity.GetSafeNormal();
 
-	newVelocityDirection += Separation(GetBirdsInRadius(SeparationRadius));
+	TArray<FVector> collisionPoints = Raycast();
+
+	if (collisionPoints.Num() > 0)
+	{
+		birdsInRadius = GetBirdsInRadius(AvoidanceLength);
+		newVelocityDirection += Separation(GetBirdsInRadius(AvoidanceLength), collisionPoints);
+	}
+	else
+	{
+		birdsInRadius = GetBirdsInRadius(Radius);
+		newVelocityDirection += Separation(GetBirdsInRadius(SeparationRadius), collisionPoints);
+	}
+
 	newVelocityDirection += Alignment(birdsInRadius);
 	newVelocityDirection += Cohesion(birdsInRadius);
+
+	Raycast();
 
 	FQuat newRotation = FQuat::Slerp(Velocity.ToOrientationQuat(), newVelocityDirection.ToOrientationQuat(), RotationScalar * DeltaTime);
 	Speed = FMath::Clamp<float>(Speed + SpeedScalar, 0, MaxVelocity);
@@ -97,6 +112,7 @@ TArray<ABirdActor*> ABirdActor::GetBirdsInRadius(float R)
 	for (auto& bird : *Birds)
 	{
 		if (bird == this) continue;
+		//if (!IsValidMemberOfGroup(bird->GetActorLocation())) continue;
 
 		FVector difference = bird->GetActorLocation() - GetActorLocation();
 
@@ -144,7 +160,7 @@ FVector ABirdActor::Alignment(TArray<ABirdActor*> BirdsInRadius)
 	return average.GetSafeNormal() * AlignmentScalar;
 }
 
-FVector ABirdActor::Separation(TArray<ABirdActor*> BirdsInRadius)
+FVector ABirdActor::Separation(TArray<ABirdActor*> BirdsInRadius, TArray<FVector> collisionPoints)
 {
 	FVector velocityChange = { 0, 0, 0 };
 
@@ -156,6 +172,80 @@ FVector ABirdActor::Separation(TArray<ABirdActor*> BirdsInRadius)
 		velocityChange -= (difference.GetSafeNormal() * weight);
 	}
 
+	for (const FVector point : collisionPoints)
+	{
+		FVector difference = point - GetActorLocation();
+		float weight = FMath::Clamp<float>(1 - (difference.Size() / SeparationRadius), 0, 1); // Move quicker away from those closer than from those further
+
+		velocityChange -= (difference.GetSafeNormal() * weight);
+	}
+
 	return velocityChange.GetSafeNormal() * SeparationScalar;
+}
+
+TArray<FVector> ABirdActor::Raycast()
+{
+	FHitResult hit;
+	FVector origin = GetActorLocation();
+	FVector forward = GetActorForwardVector();
+	FVector right = GetActorRightVector();
+	FVector up = GetActorUpVector();
+	FVector end1 = origin + forward * AvoidanceLength;
+	FVector end2 = origin - forward * AvoidanceLength;
+	FVector end3 = origin + right * AvoidanceLength;
+	FVector end4 = origin - right * AvoidanceLength;
+	FVector end5 = origin + up * AvoidanceLength;
+	FVector end6 = origin - up * AvoidanceLength;
+
+	TArray<FVector> collisionPoints;
+
+	FCollisionQueryParams collisionParams;
+	collisionParams.AddIgnoredActor(GetOwner());
+	
+	//DrawDebugLine(GetWorld(), origin, end1, FColor::Green, false, 0.1f, 0, 1);
+	//DrawDebugLine(GetWorld(), origin, end2, FColor::Green, false, 0.1f, 0, 1);
+
+	if (GetWorld()->LineTraceSingleByChannel(hit, origin, end1, ECC_Visibility, collisionParams))
+	{
+		collisionPoints.Add(hit.ImpactPoint);
+	}
+
+	if (GetWorld()->LineTraceSingleByChannel(hit, origin, end2, ECC_Visibility, collisionParams))
+	{
+		collisionPoints.Add(hit.ImpactPoint);
+	}
+
+	if (GetWorld()->LineTraceSingleByChannel(hit, origin, end3, ECC_Visibility, collisionParams))
+	{
+		collisionPoints.Add(hit.ImpactPoint);
+	}
+
+	if (GetWorld()->LineTraceSingleByChannel(hit, origin, end4, ECC_Visibility, collisionParams))
+	{
+		collisionPoints.Add(hit.ImpactPoint);
+	}
+
+	if (GetWorld()->LineTraceSingleByChannel(hit, origin, end5, ECC_Visibility, collisionParams))
+	{
+		collisionPoints.Add(hit.ImpactPoint);
+	}
+
+	if (GetWorld()->LineTraceSingleByChannel(hit, origin, end6, ECC_Visibility, collisionParams))
+	{
+		collisionPoints.Add(hit.ImpactPoint);
+	}
+
+	return collisionPoints;
+}
+
+bool ABirdActor::IsValidMemberOfGroup(FVector otherMember) // Unused due to performance, not optimal approach
+{
+	FVector origin = GetActorLocation();
+	FHitResult hit;
+
+	if (GetWorld()->LineTraceSingleByChannel(hit, origin, otherMember, ECC_Visibility))
+		return false;
+
+	return true;
 }
 

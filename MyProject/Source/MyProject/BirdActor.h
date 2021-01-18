@@ -6,6 +6,7 @@
 #include "GameFramework/Actor.h"
 #include "Kismet/KismetMathLibrary.h"
 #include "MyUtils.h"
+#include "DrawDebugHelpers.h"
 #include "BirdActor.generated.h"
 
 UCLASS()
@@ -43,6 +44,9 @@ public:
 		float SeparationRadius;
 
 	UPROPERTY(EditAnywhere, Category = Boids)
+		float AvoidanceLength;
+
+	UPROPERTY(EditAnywhere, Category = Boids)
 		float SeparationScalar;
 
 	UPROPERTY(EditAnywhere, Category = Boids)
@@ -71,5 +75,7 @@ private:
 	TArray<ABirdActor*> GetBirdsInRadius(float R);
 	FVector Cohesion(TArray<ABirdActor*> BirdsInRadius);
 	FVector Alignment(TArray<ABirdActor*> BirdsInRadius);
-	FVector Separation(TArray<ABirdActor*> BirdsInRadius);
+	FVector Separation(TArray<ABirdActor*> BirdsInRadius, TArray<FVector> collisionPoints);
+	TArray<FVector> Raycast();
+	bool IsValidMemberOfGroup(FVector otherMember);
 };

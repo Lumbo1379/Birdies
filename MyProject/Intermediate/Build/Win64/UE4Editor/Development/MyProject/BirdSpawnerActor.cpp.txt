@@ -6,5 +6,6 @@ C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\Kismet\KismetMathLibrary.inl
 C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Source\MyProject\MyUtils.h
 C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\EngineUtils.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\BirdActor.generated.h
 C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Inc\MyProject\BirdSpawnerActor.generated.h

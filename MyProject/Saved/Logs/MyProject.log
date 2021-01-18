@@ -1805,3 +1805,1339 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.01.18-01.10.58:089][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2021.01.18-01.10.58:109][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
 [2021.01.18-01.10.58:145][156]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.01.18-01.21.38:803][935]Candidate modules for hot reload:
+[2021.01.18-01.21.38:803][935]  MyProject
+[2021.01.18-01.21.38:803][935]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,9409 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.21.38:805][935]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.21.55:398][505]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:21:55
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\MyProject.uproject" "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\cat12\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Reflection code generated for MyProjectEditor in 4.9694688 seconds
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [1/9] BirdSpawnerActor.cpp
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [2/9] BirdSpawnerActor.gen.cpp
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [3/9] BirdActor.gen.cpp
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [4/9] PlayerCharacter.gen.cpp
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [5/9] BirdActor.cpp
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [6/9] PlayerCharacter.cpp
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [7/9] UE4Editor-MyProject-9409.lib
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-9409.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-9409.exp
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [8/9] UE4Editor-MyProject-9409.dll
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-9409.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-9409.suppressed.exp
+[2021.01.18-01.21.55:399][505]CompilerResultsLog:   [9/9] MyProjectEditor.target
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Total time in Parallel executor: 9.41 seconds
+[2021.01.18-01.21.55:399][505]CompilerResultsLog: Total execution time: 16.42 seconds
+[2021.01.18-01.21.55:399][505]LogMainFrame: MainFrame: Module compiling took 16.623 seconds
+[2021.01.18-01.21.55:425][505]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.21.55:426][505]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.21.55:454][505]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.21.55:454][505]Display: HotReload took 16.7s.
+[2021.01.18-01.22.09:227][823]Candidate modules for hot reload:
+[2021.01.18-01.22.09:227][823]  MyProject
+[2021.01.18-01.22.09:227][823]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,7369 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.22.09:230][823]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.22.12:702][120]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:22:12
+[2021.01.18-01.22.12:702][120]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.22.12:702][120]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdSpawnerActor.cpp modified)
+[2021.01.18-01.22.12:702][120]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.22.12:702][120]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.22.12:702][120]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.18-01.22.12:702][120]CompilerResultsLog:   [1/4] BirdSpawnerActor.cpp
+[2021.01.18-01.22.12:702][120]CompilerResultsLog:   [2/4] UE4Editor-MyProject-7369.lib
+[2021.01.18-01.22.12:702][120]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-7369.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-7369.exp
+[2021.01.18-01.22.12:702][120]CompilerResultsLog:   [3/4] UE4Editor-MyProject-7369.dll
+[2021.01.18-01.22.12:702][120]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-7369.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-7369.suppressed.exp
+[2021.01.18-01.22.12:702][120]CompilerResultsLog:   [4/4] MyProjectEditor.target
+[2021.01.18-01.22.12:702][120]CompilerResultsLog: Total time in Parallel executor: 1.48 seconds
+[2021.01.18-01.22.12:702][120]CompilerResultsLog: Total execution time: 3.29 seconds
+[2021.01.18-01.22.12:702][120]LogMainFrame: MainFrame: Module compiling took 3.502 seconds
+[2021.01.18-01.22.12:723][120]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.22.12:724][120]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.22.12:749][120]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0074 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.22.12:749][120]Display: HotReload took  3.6s.
+[2021.01.18-01.22.18:690][563]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.22.18:716][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.22.18:716][563]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:22:18)
+[2021.01.18-01.22.18:716][563]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.22.18:718][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001936s)
+[2021.01.18-01.22.18:719][563]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.22.18:719][563]LogPlayLevel: PIE: World Init took: (0.001340s)
+[2021.01.18-01.22.18:719][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.003396s)
+[2021.01.18-01.22.18:724][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.01.18-01.22.18:729][563]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.01.18-01.22.18:730][563]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.22.18:730][563]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.22.18:730][563]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.22.18:730][563]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.22.18:730][563]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.22.18:730][563]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.22.18:730][563]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.22.18:730][563]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.22.18:730][563]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.22.18:730][563]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.22.18:734][563]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.22.18:734][563]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.22.18:744][563]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.22.18:744][563]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.22.18:744][563]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.22.18:744][563]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.22.18:745][563]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.22.18:745][563]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.22.18:745][563]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.22.18:757][563]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.22.18:757][563]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.22.18:757][563]LogInit: FAudioDevice initialized.
+[2021.01.18-01.22.18:757][563]LogAudio: Display: Audio Device (ID: 6) registered with world 'MyProjectMap'.
+[2021.01.18-01.22.18:768][563]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.22.18:769][563]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.22.18
+[2021.01.18-01.22.18:769][563]LogWorld: Bringing up level for play took: 0.000471
+[2021.01.18-01.22.18:769][563]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.01.18-01.22.18:772][563]PIE: Server logged in
+[2021.01.18-01.22.18:773][563]PIE: Play in editor total start time 0.058 seconds.
+[2021.01.18-01.22.45:529][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.22.45:529][765]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.22.45:529][765]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.22.45:530][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.22.45:537][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.22.45:550][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.22.45:552][765]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.22.45:553][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.22.45:553][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.22.45:567][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.22.45:569][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.01.18-01.22.45:602][766]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.01.18-01.23.10:296][ 64]Candidate modules for hot reload:
+[2021.01.18-01.23.10:297][ 64]  MyProject
+[2021.01.18-01.23.10:297][ 64]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,2875 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.23.10:299][ 64]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.23.13:843][369]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:23:13
+[2021.01.18-01.23.13:843][369]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.23.13:843][369]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.23.13:843][369]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.23.13:843][369]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.23.13:843][369]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.18-01.23.13:843][369]CompilerResultsLog:   [1/4] BirdActor.cpp
+[2021.01.18-01.23.13:843][369]CompilerResultsLog:   [2/4] UE4Editor-MyProject-2875.lib
+[2021.01.18-01.23.13:843][369]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2875.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2875.exp
+[2021.01.18-01.23.13:843][369]CompilerResultsLog:   [3/4] UE4Editor-MyProject-2875.dll
+[2021.01.18-01.23.13:843][369]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2875.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2875.suppressed.exp
+[2021.01.18-01.23.13:843][369]CompilerResultsLog:   [4/4] MyProjectEditor.target
+[2021.01.18-01.23.13:843][369]CompilerResultsLog: Total time in Parallel executor: 1.53 seconds
+[2021.01.18-01.23.13:843][369]CompilerResultsLog: Total execution time: 3.37 seconds
+[2021.01.18-01.23.13:843][369]LogMainFrame: MainFrame: Module compiling took 3.573 seconds
+[2021.01.18-01.23.13:864][369]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.23.13:865][369]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.23.13:890][369]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0075 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.23.13:890][369]Display: HotReload took  3.6s.
+[2021.01.18-01.23.15:162][485]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.23.15:171][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.23.15:171][485]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:23:15)
+[2021.01.18-01.23.15:199][485]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.23.15:201][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001612s)
+[2021.01.18-01.23.15:201][485]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.23.15:202][485]LogPlayLevel: PIE: World Init took: (0.000864s)
+[2021.01.18-01.23.15:202][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002607s)
+[2021.01.18-01.23.15:206][485]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.01.18-01.23.15:208][485]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.01.18-01.23.15:208][485]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.23.15:208][485]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.23.15:208][485]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.23.15:208][485]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.23.15:208][485]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.23.15:208][485]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.23.15:208][485]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.23.15:208][485]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.23.15:208][485]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.23.15:208][485]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.23.15:211][485]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.23.15:211][485]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.23.15:219][485]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.23.15:220][485]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.23.15:220][485]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.23.15:220][485]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.23.15:220][485]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.23.15:220][485]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.23.15:220][485]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.23.15:233][485]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.23.15:233][485]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.23.15:233][485]LogInit: FAudioDevice initialized.
+[2021.01.18-01.23.15:233][485]LogAudio: Display: Audio Device (ID: 7) registered with world 'MyProjectMap'.
+[2021.01.18-01.23.15:239][485]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.23.15:241][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.23.15
+[2021.01.18-01.23.15:241][485]LogWorld: Bringing up level for play took: 0.000393
+[2021.01.18-01.23.15:241][485]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.01.18-01.23.15:243][485]PIE: Server logged in
+[2021.01.18-01.23.15:244][485]PIE: Play in editor total start time 0.074 seconds.
+[2021.01.18-01.23.33:619][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.23.33:620][674]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.23.33:620][674]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.23.33:621][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.23.33:624][674]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.23.33:637][674]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.23.33:640][674]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.23.33:640][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.23.33:641][674]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.23.33:654][674]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.23.33:657][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.01.18-01.23.33:716][676]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.01.18-01.24.06:966][896]Candidate modules for hot reload:
+[2021.01.18-01.24.06:966][896]  MyProject
+[2021.01.18-01.24.06:966][896]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,1843 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.24.06:969][896]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.24.10:535][224]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:24:10
+[2021.01.18-01.24.10:535][224]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.24.10:536][224]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.24.10:536][224]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.24.10:536][224]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.24.10:536][224]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.18-01.24.10:536][224]CompilerResultsLog:   [1/4] BirdActor.cpp
+[2021.01.18-01.24.10:536][224]CompilerResultsLog:   [2/4] UE4Editor-MyProject-1843.lib
+[2021.01.18-01.24.10:536][224]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1843.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1843.exp
+[2021.01.18-01.24.10:536][224]CompilerResultsLog:   [3/4] UE4Editor-MyProject-1843.dll
+[2021.01.18-01.24.10:536][224]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1843.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1843.suppressed.exp
+[2021.01.18-01.24.10:536][224]CompilerResultsLog:   [4/4] MyProjectEditor.target
+[2021.01.18-01.24.10:536][224]CompilerResultsLog: Total time in Parallel executor: 1.49 seconds
+[2021.01.18-01.24.10:536][224]CompilerResultsLog: Total execution time: 3.38 seconds
+[2021.01.18-01.24.10:536][224]LogMainFrame: MainFrame: Module compiling took 3.600 seconds
+[2021.01.18-01.24.10:556][224]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.24.10:557][224]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.24.10:580][224]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0073 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.24.10:580][224]Display: HotReload took  3.6s.
+[2021.01.18-01.24.12:071][357]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.24.12:079][357]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.24.12:079][357]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:24:12)
+[2021.01.18-01.24.12:100][357]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.24.12:102][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001603s)
+[2021.01.18-01.24.12:103][357]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.24.12:103][357]LogPlayLevel: PIE: World Init took: (0.000866s)
+[2021.01.18-01.24.12:103][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002591s)
+[2021.01.18-01.24.12:107][357]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.01.18-01.24.12:109][357]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.01.18-01.24.12:109][357]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.24.12:109][357]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.24.12:109][357]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.24.12:109][357]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.24.12:109][357]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.24.12:109][357]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.24.12:109][357]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.24.12:109][357]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.24.12:109][357]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.24.12:109][357]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.24.12:113][357]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.24.12:113][357]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.24.12:120][357]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.24.12:121][357]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.24.12:121][357]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.24.12:121][357]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.24.12:121][357]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.24.12:121][357]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.24.12:121][357]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.24.12:134][357]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.24.12:134][357]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.24.12:134][357]LogInit: FAudioDevice initialized.
+[2021.01.18-01.24.12:134][357]LogAudio: Display: Audio Device (ID: 8) registered with world 'MyProjectMap'.
+[2021.01.18-01.24.12:139][357]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.24.12:140][357]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.24.12
+[2021.01.18-01.24.12:140][357]LogWorld: Bringing up level for play took: 0.000472
+[2021.01.18-01.24.12:140][357]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.01.18-01.24.12:143][357]PIE: Server logged in
+[2021.01.18-01.24.12:144][357]PIE: Play in editor total start time 0.065 seconds.
+[2021.01.18-01.24.20:601][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.24.20:601][354]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.24.20:602][354]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.24.20:602][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.24.20:610][354]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.24.20:622][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.24.20:626][354]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.24.20:626][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.24.20:627][354]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.24.20:640][354]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.24.20:642][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.01.18-01.24.20:676][355]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.01.18-01.26.35:223][934]Candidate modules for hot reload:
+[2021.01.18-01.26.35:223][934]  MyProject
+[2021.01.18-01.26.35:223][934]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,2798 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.26.35:225][934]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.26.38:789][237]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:26:38
+[2021.01.18-01.26.38:790][237]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.26.38:790][237]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.26.38:790][237]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.26.38:790][237]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.26.38:790][237]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.18-01.26.38:790][237]CompilerResultsLog:   [1/5] BirdSpawnerActor.cpp
+[2021.01.18-01.26.38:790][237]CompilerResultsLog:   [2/5] BirdActor.cpp
+[2021.01.18-01.26.38:790][237]CompilerResultsLog:   [3/5] UE4Editor-MyProject-2798.lib
+[2021.01.18-01.26.38:790][237]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2798.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2798.exp
+[2021.01.18-01.26.38:790][237]CompilerResultsLog:   [4/5] UE4Editor-MyProject-2798.dll
+[2021.01.18-01.26.38:790][237]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2798.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2798.suppressed.exp
+[2021.01.18-01.26.38:790][237]CompilerResultsLog:   [5/5] MyProjectEditor.target
+[2021.01.18-01.26.38:790][237]CompilerResultsLog: Total time in Parallel executor: 1.58 seconds
+[2021.01.18-01.26.38:790][237]CompilerResultsLog: Total execution time: 3.41 seconds
+[2021.01.18-01.26.38:790][237]LogMainFrame: MainFrame: Module compiling took 3.592 seconds
+[2021.01.18-01.26.38:812][237]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.26.38:813][237]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.26.38:839][237]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0074 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.26.38:839][237]Display: HotReload took  3.6s.
+[2021.01.18-01.26.40:562][375]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.26.40:571][375]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.26.40:571][375]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:26:40)
+[2021.01.18-01.26.40:604][375]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.26.40:605][375]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001725s)
+[2021.01.18-01.26.40:606][375]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.26.40:606][375]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2021.01.18-01.26.40:606][375]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002737s)
+[2021.01.18-01.26.40:611][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.01.18-01.26.40:613][375]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.01.18-01.26.40:613][375]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.26.40:613][375]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.26.40:613][375]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.26.40:613][375]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.26.40:613][375]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.26.40:613][375]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.26.40:613][375]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.26.40:613][375]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.26.40:613][375]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.26.40:613][375]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.26.40:617][375]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.26.40:617][375]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.26.40:625][375]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.26.40:625][375]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.26.40:625][375]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.26.40:625][375]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.26.40:625][375]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.26.40:625][375]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.26.40:625][375]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.26.40:626][375]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.26.40:626][375]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.26.40:626][375]LogInit: FAudioDevice initialized.
+[2021.01.18-01.26.40:626][375]LogAudio: Display: Audio Device (ID: 9) registered with world 'MyProjectMap'.
+[2021.01.18-01.26.40:641][375]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.26.40:642][375]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.26.40
+[2021.01.18-01.26.40:642][375]LogWorld: Bringing up level for play took: 0.000388
+[2021.01.18-01.26.40:642][375]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.01.18-01.26.40:644][375]PIE: Server logged in
+[2021.01.18-01.26.40:645][375]PIE: Play in editor total start time 0.075 seconds.
+[2021.01.18-01.26.59:695][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.26.59:695][641]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.26.59:695][641]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.26.59:695][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.26.59:702][641]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.26.59:716][641]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.26.59:721][641]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.26.59:721][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.26.59:722][641]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.26.59:738][641]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.26.59:740][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2021.01.18-01.26.59:774][642]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.01.18-01.27.02:071][850]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.27.02:081][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.27.02:081][850]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:27:02)
+[2021.01.18-01.27.02:104][850]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.27.02:106][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001551s)
+[2021.01.18-01.27.02:107][850]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.27.02:107][850]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2021.01.18-01.27.02:107][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002582s)
+[2021.01.18-01.27.02:111][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.01.18-01.27.02:112][850]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.01.18-01.27.02:112][850]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.27.02:112][850]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.27.02:112][850]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.27.02:112][850]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.27.02:112][850]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.27.02:112][850]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.27.02:112][850]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.27.02:112][850]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.27.02:112][850]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.27.02:112][850]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.27.02:115][850]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.27.02:115][850]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.27.02:123][850]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.27.02:123][850]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.27.02:123][850]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.27.02:123][850]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.27.02:123][850]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.27.02:123][850]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.27.02:123][850]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.27.02:136][850]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.27.02:136][850]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.27.02:136][850]LogInit: FAudioDevice initialized.
+[2021.01.18-01.27.02:136][850]LogAudio: Display: Audio Device (ID: 10) registered with world 'MyProjectMap'.
+[2021.01.18-01.27.02:150][850]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.27.02:152][850]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.27.02
+[2021.01.18-01.27.02:152][850]LogWorld: Bringing up level for play took: 0.000747
+[2021.01.18-01.27.02:152][850]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.01.18-01.27.02:155][850]PIE: Server logged in
+[2021.01.18-01.27.02:156][850]PIE: Play in editor total start time 0.076 seconds.
+[2021.01.18-01.27.05:705][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.27.05:705][260]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.27.05:705][260]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.27.05:706][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.27.05:712][260]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.27.05:726][260]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.27.05:730][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.27.05:730][260]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.27.05:731][260]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.27.05:746][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.01.18-01.27.05:777][261]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.01.18-01.30.27:299][257]Candidate modules for hot reload:
+[2021.01.18-01.30.27:299][257]  MyProject
+[2021.01.18-01.30.27:299][257]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,6628 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.30.27:301][257]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:30:35
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\MyProject.uproject" "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\cat12\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Reflection code generated for MyProjectEditor in 3.4009945 seconds
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [1/9] BirdActor.cpp
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [2/9] BirdSpawnerActor.cpp
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [3/9] BirdActor.gen.cpp
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [4/9] BirdSpawnerActor.gen.cpp
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [5/9] PlayerCharacter.gen.cpp
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [6/9] PlayerCharacter.cpp
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [7/9] UE4Editor-MyProject-6628.lib
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-6628.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-6628.exp
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [8/9] UE4Editor-MyProject-6628.dll
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-6628.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-6628.suppressed.exp
+[2021.01.18-01.30.35:413][995]CompilerResultsLog:   [9/9] MyProjectEditor.target
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Total time in Parallel executor: 2.65 seconds
+[2021.01.18-01.30.35:413][995]CompilerResultsLog: Total execution time: 7.94 seconds
+[2021.01.18-01.30.35:413][995]LogMainFrame: MainFrame: Module compiling took 8.147 seconds
+[2021.01.18-01.30.35:433][995]LogClass: Could not find existing class BirdActor in package /Script/MyProject for HotReload, assuming new class
+[2021.01.18-01.30.35:437][995]LogHotReload: Re-instancing BirdActor after hot-reload.
+[2021.01.18-01.30.35:443][995]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.30.35:444][995]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.30.35:477][995]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0088 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.30.35:477][995]Display: HotReload took  8.2s.
+[2021.01.18-01.30.36:473][ 78]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.30.36:482][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.30.36:482][ 78]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:30:36)
+[2021.01.18-01.30.36:482][ 78]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.30.36:483][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001615s)
+[2021.01.18-01.30.36:484][ 78]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.30.36:484][ 78]LogPlayLevel: PIE: World Init took: (0.000956s)
+[2021.01.18-01.30.36:484][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002666s)
+[2021.01.18-01.30.36:489][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.18-01.30.36:491][ 78]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2021.01.18-01.30.36:491][ 78]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.30.36:491][ 78]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.30.36:491][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.30.36:491][ 78]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.30.36:491][ 78]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.30.36:491][ 78]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.30.36:491][ 78]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.30.36:491][ 78]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.30.36:491][ 78]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.30.36:491][ 78]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.30.36:495][ 78]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.30.36:495][ 78]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.30.36:503][ 78]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.30.36:503][ 78]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.30.36:503][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.30.36:503][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.30.36:503][ 78]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.30.36:503][ 78]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.30.36:503][ 78]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.30.36:516][ 78]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.30.36:516][ 78]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.30.36:516][ 78]LogInit: FAudioDevice initialized.
+[2021.01.18-01.30.36:516][ 78]LogAudio: Display: Audio Device (ID: 11) registered with world 'MyProjectMap'.
+[2021.01.18-01.30.36:522][ 78]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.30.36:523][ 78]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.30.36
+[2021.01.18-01.30.36:523][ 78]LogWorld: Bringing up level for play took: 0.000418
+[2021.01.18-01.30.36:523][ 78]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2021.01.18-01.30.36:525][ 78]PIE: Server logged in
+[2021.01.18-01.30.36:526][ 78]PIE: Play in editor total start time 0.045 seconds.
+[2021.01.18-01.30.40:480][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.30.40:480][536]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.30.40:480][536]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.30.40:480][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.30.40:490][536]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.30.40:502][536]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.30.40:506][536]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.30.40:506][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.30.40:507][536]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.30.40:520][536]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.30.40:522][536]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.01.18-01.30.40:556][537]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2021.01.18-01.30.41:538][616]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.30.41:547][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.30.41:547][616]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:30:41)
+[2021.01.18-01.30.41:569][616]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.30.41:571][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001607s)
+[2021.01.18-01.30.41:571][616]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.30.41:572][616]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2021.01.18-01.30.41:572][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002616s)
+[2021.01.18-01.30.41:576][616]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.01.18-01.30.41:576][616]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2021.01.18-01.30.41:576][616]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.30.41:576][616]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.30.41:576][616]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.30.41:576][616]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.30.41:576][616]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.30.41:576][616]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.30.41:576][616]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.30.41:576][616]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.30.41:577][616]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.30.41:577][616]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.30.41:580][616]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.30.41:580][616]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.30.41:588][616]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.30.41:588][616]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.30.41:588][616]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.30.41:588][616]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.30.41:588][616]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.30.41:588][616]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.30.41:588][616]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.30.41:602][616]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.30.41:602][616]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.30.41:602][616]LogInit: FAudioDevice initialized.
+[2021.01.18-01.30.41:602][616]LogAudio: Display: Audio Device (ID: 12) registered with world 'MyProjectMap'.
+[2021.01.18-01.30.41:607][616]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.30.41:608][616]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.30.41
+[2021.01.18-01.30.41:608][616]LogWorld: Bringing up level for play took: 0.000451
+[2021.01.18-01.30.41:608][616]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.01.18-01.30.41:610][616]PIE: Server logged in
+[2021.01.18-01.30.41:611][616]PIE: Play in editor total start time 0.065 seconds.
+[2021.01.18-01.30.43:740][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.30.43:740][854]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.30.43:741][854]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.30.43:741][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.30.43:752][854]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.30.43:764][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.30.43:768][854]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.30.43:768][854]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.30.43:769][854]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.30.43:784][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.01.18-01.30.43:815][855]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.01.18-01.31.00:634][410]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.31.00:643][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.31.00:644][410]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:31:00)
+[2021.01.18-01.31.00:644][410]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.31.00:645][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001610s)
+[2021.01.18-01.31.00:646][410]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.31.00:646][410]LogPlayLevel: PIE: World Init took: (0.001003s)
+[2021.01.18-01.31.00:646][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002714s)
+[2021.01.18-01.31.00:651][410]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2021.01.18-01.31.00:653][410]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2021.01.18-01.31.00:653][410]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.31.00:653][410]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.31.00:653][410]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.31.00:653][410]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.31.00:653][410]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.31.00:653][410]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.31.00:653][410]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.31.00:653][410]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.31.00:654][410]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.31.00:654][410]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.31.00:657][410]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.31.00:657][410]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.31.00:665][410]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.31.00:666][410]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.31.00:666][410]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.31.00:666][410]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.31.00:666][410]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.31.00:666][410]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.31.00:666][410]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.31.00:679][410]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.31.00:679][410]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.31.00:679][410]LogInit: FAudioDevice initialized.
+[2021.01.18-01.31.00:679][410]LogAudio: Display: Audio Device (ID: 13) registered with world 'MyProjectMap'.
+[2021.01.18-01.31.00:683][410]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.31.00:685][410]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.31.00
+[2021.01.18-01.31.00:685][410]LogWorld: Bringing up level for play took: 0.000394
+[2021.01.18-01.31.00:685][410]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.01.18-01.31.00:687][410]PIE: Server logged in
+[2021.01.18-01.31.00:687][410]PIE: Play in editor total start time 0.044 seconds.
+[2021.01.18-01.31.02:510][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.31.02:510][611]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.31.02:510][611]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.31.02:511][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.31.02:517][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.31.02:518][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.31.02:522][611]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.31.02:522][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.31.02:523][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.31.02:536][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.31.02:538][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.01.18-01.31.02:594][614]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.01.18-01.39.39:602][623]Candidate modules for hot reload:
+[2021.01.18-01.39.39:602][623]  MyProject
+[2021.01.18-01.39.39:602][623]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,7545 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.39.39:605][623]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.39.46:950][281]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:39:46
+[2021.01.18-01.39.46:950][281]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.39.46:950][281]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.39.46:950][281]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\MyProject.uproject" "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\cat12\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.18-01.39.46:950][281]CompilerResultsLog: Reflection code generated for MyProjectEditor in 3.3608236 seconds
+[2021.01.18-01.39.46:950][281]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.39.46:950][281]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.39.46:950][281]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   [1/9] BirdActor.cpp
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:    C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Source\MyProject\BirdActor.cpp(77) : error C2660: 'ABirdActor::GetBirdsInRadius': function does not take 2 arguments
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Source\MyProject\BirdActor.h(72): note: see declaration of 'ABirdActor::GetBirdsInRadius'
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:    C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Source\MyProject\BirdActor.cpp(77) : error C2660: 'ABirdActor::Separation': function does not take 1 arguments
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Source\MyProject\BirdActor.h(75): note: see declaration of 'ABirdActor::Separation'
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   [2/9] BirdSpawnerActor.cpp
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   [3/9] BirdActor.gen.cpp
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   [4/9] BirdSpawnerActor.gen.cpp
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   [5/9] PlayerCharacter.gen.cpp
+[2021.01.18-01.39.46:950][281]CompilerResultsLog:   [6/9] PlayerCharacter.cpp
+[2021.01.18-01.39.46:950][281]LogMainFrame: MainFrame: Module compiling took 7.377 seconds
+[2021.01.18-01.39.46:955][281]Warning: HotReload failed, recompile failed
+[2021.01.18-01.39.48:931][438]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.01.18-01.40.19:209][ 25]Candidate modules for hot reload:
+[2021.01.18-01.40.19:209][ 25]  MyProject
+[2021.01.18-01.40.19:209][ 25]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,2312 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.40.19:212][ 25]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.40.20:447][101]LogSlate: Window 'Message Log' being destroyed
+[2021.01.18-01.40.20:466][101]LogSlate: Window 'Message Log' being destroyed
+[2021.01.18-01.40.22:680][314]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:40:22
+[2021.01.18-01.40.22:680][314]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.40.22:680][314]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.40.22:680][314]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.40.22:680][314]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.40.22:680][314]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.18-01.40.22:680][314]CompilerResultsLog:   [1/4] BirdActor.cpp
+[2021.01.18-01.40.22:680][314]CompilerResultsLog:   [2/4] UE4Editor-MyProject-2312.lib
+[2021.01.18-01.40.22:680][314]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2312.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2312.exp
+[2021.01.18-01.40.22:680][314]CompilerResultsLog:   [3/4] UE4Editor-MyProject-2312.dll
+[2021.01.18-01.40.22:681][314]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2312.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2312.suppressed.exp
+[2021.01.18-01.40.22:681][314]CompilerResultsLog:   [4/4] MyProjectEditor.target
+[2021.01.18-01.40.22:681][314]CompilerResultsLog: Total time in Parallel executor: 1.53 seconds
+[2021.01.18-01.40.22:681][314]CompilerResultsLog: Total execution time: 3.30 seconds
+[2021.01.18-01.40.22:681][314]LogMainFrame: MainFrame: Module compiling took 3.498 seconds
+[2021.01.18-01.40.22:701][314]LogClass: Could not find existing class BirdActor in package /Script/MyProject for HotReload, assuming new class
+[2021.01.18-01.40.22:705][314]LogHotReload: Re-instancing BirdActor after hot-reload.
+[2021.01.18-01.40.22:710][314]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.40.22:711][314]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.40.22:737][314]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0076 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.40.22:737][314]Display: HotReload took  3.6s.
+[2021.01.18-01.40.24:117][442]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.40.24:126][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.40.24:126][442]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:40:24)
+[2021.01.18-01.40.24:153][442]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.40.24:155][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001807s)
+[2021.01.18-01.40.24:156][442]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.40.24:156][442]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2021.01.18-01.40.24:156][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002892s)
+[2021.01.18-01.40.24:160][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.01.18-01.40.24:164][442]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.01.18-01.40.24:164][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.40.24:164][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.40.24:164][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.40.24:164][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.40.24:164][442]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.40.24:164][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.40.24:164][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.40.24:164][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.40.24:164][442]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.40.24:164][442]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.40.24:168][442]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.40.24:168][442]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.40.24:176][442]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.40.24:177][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.40.24:177][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.40.24:177][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.40.24:178][442]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.40.24:178][442]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.40.24:178][442]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.40.24:190][442]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.40.24:190][442]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.40.24:190][442]LogInit: FAudioDevice initialized.
+[2021.01.18-01.40.24:190][442]LogAudio: Display: Audio Device (ID: 14) registered with world 'MyProjectMap'.
+[2021.01.18-01.40.24:196][442]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.40.24:197][442]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.40.24
+[2021.01.18-01.40.24:197][442]LogWorld: Bringing up level for play took: 0.000447
+[2021.01.18-01.40.24:198][442]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.01.18-01.40.24:200][442]PIE: Server logged in
+[2021.01.18-01.40.24:200][442]PIE: Play in editor total start time 0.075 seconds.
+[2021.01.18-01.40.32:914][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.40.32:914][469]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.40.32:914][469]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.40.32:914][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.40.32:923][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.40.32:936][469]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.40.32:940][469]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.40.32:940][469]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.40.32:941][469]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.40.32:954][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.40.32:956][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.01.18-01.40.32:992][470]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.01.18-01.41.42:260][835]Candidate modules for hot reload:
+[2021.01.18-01.41.42:260][835]  MyProject
+[2021.01.18-01.41.42:260][835]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,1831 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.41.42:263][835]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:41:50
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\MyProject.uproject" "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\cat12\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Reflection code generated for MyProjectEditor in 3.4444224 seconds
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Building 10 actions with 12 processes...
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [1/10] MyProject.init.gen.cpp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [2/10] BirdSpawnerActor.cpp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [3/10] BirdActor.cpp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [4/10] BirdActor.gen.cpp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [5/10] BirdSpawnerActor.gen.cpp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [6/10] PlayerCharacter.gen.cpp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [7/10] PlayerCharacter.cpp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [8/10] UE4Editor-MyProject-1831.lib
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1831.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1831.exp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [9/10] UE4Editor-MyProject-1831.dll
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1831.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1831.suppressed.exp
+[2021.01.18-01.41.50:549][597]CompilerResultsLog:   [10/10] MyProjectEditor.target
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Total time in Parallel executor: 2.81 seconds
+[2021.01.18-01.41.50:549][597]CompilerResultsLog: Total execution time: 8.11 seconds
+[2021.01.18-01.41.50:549][597]LogMainFrame: MainFrame: Module compiling took 8.319 seconds
+[2021.01.18-01.41.50:566][597]LogClass: Could not find existing class BirdActor in package /Script/MyProject for HotReload, assuming new class
+[2021.01.18-01.41.50:570][597]LogHotReload: Re-instancing BirdActor after hot-reload.
+[2021.01.18-01.41.50:575][597]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.41.50:576][597]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.41.50:602][597]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0076 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.41.50:602][597]Display: HotReload took  8.4s.
+[2021.01.18-01.41.51:783][706]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.41.51:793][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.41.51:793][706]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:41:51)
+[2021.01.18-01.41.51:815][706]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.41.51:817][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001819s)
+[2021.01.18-01.41.51:818][706]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.41.51:818][706]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2021.01.18-01.41.51:818][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002813s)
+[2021.01.18-01.41.51:822][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.01.18-01.41.51:824][706]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.01.18-01.41.51:824][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.41.51:824][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.41.51:824][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.41.51:824][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.41.51:824][706]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.41.51:824][706]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.41.51:824][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.41.51:824][706]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.41.51:824][706]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.41.51:824][706]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.41.51:828][706]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.41.51:828][706]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.41.51:836][706]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.41.51:836][706]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.41.51:836][706]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.41.51:836][706]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.41.51:836][706]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.41.51:836][706]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.41.51:836][706]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.41.51:849][706]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.41.51:849][706]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.41.51:849][706]LogInit: FAudioDevice initialized.
+[2021.01.18-01.41.51:849][706]LogAudio: Display: Audio Device (ID: 15) registered with world 'MyProjectMap'.
+[2021.01.18-01.41.51:855][706]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.41.51:856][706]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.41.51
+[2021.01.18-01.41.51:856][706]LogWorld: Bringing up level for play took: 0.000394
+[2021.01.18-01.41.51:856][706]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.01.18-01.41.51:858][706]PIE: Server logged in
+[2021.01.18-01.41.51:859][706]PIE: Play in editor total start time 0.067 seconds.
+[2021.01.18-01.41.58:016][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.41.58:016][428]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.41.58:016][428]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.41.58:016][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.41.58:026][428]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.41.58:041][428]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.41.58:045][428]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.41.58:045][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.41.58:046][428]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.41.58:059][428]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.41.58:061][428]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2021.01.18-01.41.58:127][430]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.01.18-01.42.09:010][685]Candidate modules for hot reload:
+[2021.01.18-01.42.09:010][685]  MyProject
+[2021.01.18-01.42.09:010][685]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,2631 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.42.09:011][685]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:42:12
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdSpawnerActor.cpp modified)
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog:   [1/4] BirdSpawnerActor.cpp
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog:   [2/4] UE4Editor-MyProject-2631.lib
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2631.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2631.exp
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog:   [3/4] UE4Editor-MyProject-2631.dll
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2631.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-2631.suppressed.exp
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog:   [4/4] MyProjectEditor.target
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog: Total time in Parallel executor: 1.72 seconds
+[2021.01.18-01.42.12:798][  0]CompilerResultsLog: Total execution time: 3.61 seconds
+[2021.01.18-01.42.12:798][  0]LogMainFrame: MainFrame: Module compiling took 3.817 seconds
+[2021.01.18-01.42.12:827][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.42.12:828][  0]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.42.12:855][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0079 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.42.12:856][  0]Display: HotReload took  3.9s.
+[2021.01.18-01.42.14:131][115]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.42.14:140][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.42.14:140][115]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:42:14)
+[2021.01.18-01.42.14:175][115]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.42.14:177][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001657s)
+[2021.01.18-01.42.14:178][115]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.42.14:178][115]LogPlayLevel: PIE: World Init took: (0.000916s)
+[2021.01.18-01.42.14:178][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002711s)
+[2021.01.18-01.42.14:183][115]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.01.18-01.42.14:184][115]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.01.18-01.42.14:184][115]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.42.14:184][115]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.42.14:184][115]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.42.14:184][115]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.42.14:184][115]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.42.14:184][115]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.42.14:184][115]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.42.14:184][115]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.42.14:185][115]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.42.14:185][115]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.42.14:188][115]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.42.14:188][115]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.42.14:197][115]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.42.14:197][115]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.42.14:197][115]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.42.14:197][115]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.42.14:197][115]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.42.14:197][115]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.42.14:197][115]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.42.14:210][115]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.42.14:210][115]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.42.14:210][115]LogInit: FAudioDevice initialized.
+[2021.01.18-01.42.14:210][115]LogAudio: Display: Audio Device (ID: 16) registered with world 'MyProjectMap'.
+[2021.01.18-01.42.14:216][115]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.42.14:217][115]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.42.14
+[2021.01.18-01.42.14:217][115]LogWorld: Bringing up level for play took: 0.000622
+[2021.01.18-01.42.14:217][115]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.01.18-01.42.14:229][115]PIE: Server logged in
+[2021.01.18-01.42.14:230][115]PIE: Play in editor total start time 0.091 seconds.
+[2021.01.18-01.42.27:677][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.42.27:677][396]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.42.27:677][396]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.42.27:678][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.42.27:683][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.42.27:695][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.42.27:700][396]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.42.27:700][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.42.27:701][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.42.27:715][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.42.27:720][396]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2021.01.18-01.42.27:754][397]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.01.18-01.43.05:501][668]Candidate modules for hot reload:
+[2021.01.18-01.43.05:501][668]  MyProject
+[2021.01.18-01.43.05:501][668]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,1251 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.43.05:503][668]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.43.09:023][971]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:43:09
+[2021.01.18-01.43.09:023][971]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.43.09:023][971]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.43.09:023][971]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.43.09:023][971]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.43.09:023][971]CompilerResultsLog: Building 5 actions with 12 processes...
+[2021.01.18-01.43.09:023][971]CompilerResultsLog:   [1/5] BirdSpawnerActor.cpp
+[2021.01.18-01.43.09:023][971]CompilerResultsLog:   [2/5] BirdActor.cpp
+[2021.01.18-01.43.09:023][971]CompilerResultsLog:   [3/5] UE4Editor-MyProject-1251.lib
+[2021.01.18-01.43.09:023][971]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1251.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1251.exp
+[2021.01.18-01.43.09:023][971]CompilerResultsLog:   [4/5] UE4Editor-MyProject-1251.dll
+[2021.01.18-01.43.09:023][971]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1251.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-1251.suppressed.exp
+[2021.01.18-01.43.09:023][971]CompilerResultsLog:   [5/5] MyProjectEditor.target
+[2021.01.18-01.43.09:023][971]CompilerResultsLog: Total time in Parallel executor: 1.53 seconds
+[2021.01.18-01.43.09:023][971]CompilerResultsLog: Total execution time: 3.34 seconds
+[2021.01.18-01.43.09:023][971]LogMainFrame: MainFrame: Module compiling took 3.552 seconds
+[2021.01.18-01.43.09:047][971]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.43.09:048][971]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.43.09:075][971]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0076 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.43.09:075][971]Display: HotReload took  3.6s.
+[2021.01.18-01.43.10:249][ 80]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.43.10:258][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.43.10:258][ 80]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:43:10)
+[2021.01.18-01.43.10:258][ 80]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.43.10:260][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001518s)
+[2021.01.18-01.43.10:261][ 80]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.43.10:261][ 80]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2021.01.18-01.43.10:261][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002594s)
+[2021.01.18-01.43.10:265][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.01.18-01.43.10:267][ 80]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.01.18-01.43.10:267][ 80]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.43.10:267][ 80]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.43.10:267][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.43.10:267][ 80]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.43.10:267][ 80]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.43.10:267][ 80]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.43.10:267][ 80]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.43.10:267][ 80]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.43.10:268][ 80]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.43.10:268][ 80]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.43.10:271][ 80]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.43.10:271][ 80]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.43.10:278][ 80]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.43.10:278][ 80]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.43.10:278][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.43.10:278][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.43.10:278][ 80]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.43.10:278][ 80]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.43.10:278][ 80]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.43.10:291][ 80]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.43.10:291][ 80]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.43.10:291][ 80]LogInit: FAudioDevice initialized.
+[2021.01.18-01.43.10:291][ 80]LogAudio: Display: Audio Device (ID: 17) registered with world 'MyProjectMap'.
+[2021.01.18-01.43.10:299][ 80]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.43.10:301][ 80]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.43.10
+[2021.01.18-01.43.10:301][ 80]LogWorld: Bringing up level for play took: 0.000402
+[2021.01.18-01.43.10:301][ 80]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.01.18-01.43.10:353][ 80]PIE: Server logged in
+[2021.01.18-01.43.10:354][ 80]PIE: Play in editor total start time 0.097 seconds.
+[2021.01.18-01.43.23:118][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.43.23:118][489]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.43.23:118][489]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.43.23:120][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.43.23:129][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.43.23:141][489]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.43.23:148][489]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.43.23:148][489]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.43.23:149][489]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.43.23:163][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.43.23:183][489]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.01.18-01.43.23:218][490]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.01.18-01.43.35:103][610]Cmd: EDIT COPY
+[2021.01.18-01.43.35:353][634]Cmd: EDIT PASTE
+[2021.01.18-01.43.36:013][681]Cmd: EDIT PASTE
+[2021.01.18-01.43.36:636][719]Cmd: EDIT PASTE
+[2021.01.18-01.43.42:175][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_4)
+[2021.01.18-01.43.44:370][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_3)
+[2021.01.18-01.43.50:535][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_01)
+[2021.01.18-01.43.53:002][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_3)
+[2021.01.18-01.43.56:146][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_4)
+[2021.01.18-01.43.58:033][832]Cmd: EDIT COPY
+[2021.01.18-01.43.58:260][854]Cmd: EDIT PASTE
+[2021.01.18-01.44.08:457][792]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.44.08:467][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.44.08:467][792]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:44:08)
+[2021.01.18-01.44.08:467][792]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.44.08:469][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001933s)
+[2021.01.18-01.44.08:469][792]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.44.08:470][792]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2021.01.18-01.44.08:470][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002912s)
+[2021.01.18-01.44.08:488][792]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.01.18-01.44.08:492][792]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.01.18-01.44.08:492][792]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.44.08:492][792]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.44.08:492][792]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.44.08:492][792]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.44.08:492][792]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.44.08:492][792]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.44.08:492][792]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.44.08:492][792]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.44.08:492][792]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.44.08:492][792]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.44.08:496][792]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.44.08:496][792]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.44.08:504][792]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.44.08:504][792]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.44.08:504][792]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.44.08:504][792]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.44.08:504][792]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.44.08:504][792]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.44.08:504][792]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.44.08:517][792]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.44.08:517][792]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.44.08:517][792]LogInit: FAudioDevice initialized.
+[2021.01.18-01.44.08:517][792]LogAudio: Display: Audio Device (ID: 18) registered with world 'MyProjectMap'.
+[2021.01.18-01.44.08:526][792]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.44.08:527][792]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.44.08
+[2021.01.18-01.44.08:527][792]LogWorld: Bringing up level for play took: 0.000473
+[2021.01.18-01.44.08:528][792]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.01.18-01.44.08:576][792]PIE: Server logged in
+[2021.01.18-01.44.08:577][792]PIE: Play in editor total start time 0.111 seconds.
+[2021.01.18-01.44.53:510][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.44.53:510][329]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.44.53:511][329]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.44.53:513][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.44.53:520][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.44.53:532][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.44.53:539][329]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.44.53:539][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.44.53:540][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.44.53:554][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.44.53:571][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.01.18-01.44.53:608][330]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.01.18-01.50.58:032][ 23]Candidate modules for hot reload:
+[2021.01.18-01.50.58:032][ 23]  MyProject
+[2021.01.18-01.50.58:033][ 23]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,5002 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.50.58:035][ 23]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.51.06:159][698]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:51:06
+[2021.01.18-01.51.06:159][698]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.51.06:159][698]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.51.06:159][698]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2021.01.18-01.51.06:159][698]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\MyProject.uproject" "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\cat12\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.18-01.51.06:159][698]CompilerResultsLog: Reflection code generated for MyProjectEditor in 3.3810709 seconds
+[2021.01.18-01.51.06:159][698]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.51.06:160][698]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.51.06:160][698]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [1/9] BirdSpawnerActor.cpp
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [2/9] BirdActor.cpp
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [3/9] BirdActor.gen.cpp
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [4/9] BirdSpawnerActor.gen.cpp
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [5/9] PlayerCharacter.gen.cpp
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [6/9] PlayerCharacter.cpp
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [7/9] UE4Editor-MyProject-5002.lib
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-5002.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-5002.exp
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [8/9] UE4Editor-MyProject-5002.dll
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-5002.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-5002.suppressed.exp
+[2021.01.18-01.51.06:160][698]CompilerResultsLog:   [9/9] MyProjectEditor.target
+[2021.01.18-01.51.06:160][698]CompilerResultsLog: Total time in Parallel executor: 2.74 seconds
+[2021.01.18-01.51.06:160][698]CompilerResultsLog: Total execution time: 7.95 seconds
+[2021.01.18-01.51.06:160][698]LogMainFrame: MainFrame: Module compiling took 8.157 seconds
+[2021.01.18-01.51.06:187][698]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.51.06:188][698]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.51.06:215][698]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0079 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.51.06:216][698]Display: HotReload took  8.2s.
+[2021.01.18-01.51.07:455][797]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.51.07:464][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.51.07:464][797]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:51:07)
+[2021.01.18-01.51.07:498][797]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.51.07:500][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001952s)
+[2021.01.18-01.51.07:501][797]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.51.07:501][797]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2021.01.18-01.51.07:501][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.003129s)
+[2021.01.18-01.51.07:506][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.01.18-01.51.07:510][797]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.01.18-01.51.07:510][797]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.51.07:510][797]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.51.07:510][797]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.51.07:510][797]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.51.07:510][797]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.51.07:510][797]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.51.07:510][797]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.51.07:510][797]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.51.07:510][797]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.51.07:510][797]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.51.07:514][797]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.51.07:514][797]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.51.07:522][797]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.51.07:522][797]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.51.07:522][797]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.51.07:522][797]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.51.07:523][797]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.51.07:523][797]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.51.07:523][797]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.51.07:535][797]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.51.07:535][797]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.51.07:535][797]LogInit: FAudioDevice initialized.
+[2021.01.18-01.51.07:535][797]LogAudio: Display: Audio Device (ID: 19) registered with world 'MyProjectMap'.
+[2021.01.18-01.51.07:544][797]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.51.07:545][797]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.51.07
+[2021.01.18-01.51.07:545][797]LogWorld: Bringing up level for play took: 0.000494
+[2021.01.18-01.51.07:545][797]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.01.18-01.51.07:595][797]PIE: Server logged in
+[2021.01.18-01.51.07:596][797]PIE: Play in editor total start time 0.132 seconds.
+[2021.01.18-01.51.51:890][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.51.51:890][ 31]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.51.51:890][ 31]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.51.51:893][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.51.51:902][ 31]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.51.51:915][ 31]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.51.51:922][ 31]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.51.51:923][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.51.51:923][ 31]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.51.51:938][ 31]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.51.51:956][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.01.18-01.51.51:989][ 32]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.01.18-01.54.36:811][510]Candidate modules for hot reload:
+[2021.01.18-01.54.36:812][510]  MyProject
+[2021.01.18-01.54.36:812][510]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,8548 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.54.36:814][510]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:54:45
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Parsing headers for MyProjectEditor
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\MyProject.uproject" "C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\MyProjectEditor\Development\MyProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\cat12\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Reflection code generated for MyProjectEditor in 3.4741536 seconds
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Building 9 actions with 12 processes...
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [1/9] BirdSpawnerActor.cpp
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [2/9] BirdActor.cpp
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [3/9] BirdActor.gen.cpp
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [4/9] BirdSpawnerActor.gen.cpp
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [5/9] PlayerCharacter.gen.cpp
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [6/9] PlayerCharacter.cpp
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [7/9] UE4Editor-MyProject-8548.lib
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-8548.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-8548.exp
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [8/9] UE4Editor-MyProject-8548.dll
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-8548.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-8548.suppressed.exp
+[2021.01.18-01.54.45:029][221]CompilerResultsLog:   [9/9] MyProjectEditor.target
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Total time in Parallel executor: 2.69 seconds
+[2021.01.18-01.54.45:029][221]CompilerResultsLog: Total execution time: 8.03 seconds
+[2021.01.18-01.54.45:029][221]LogMainFrame: MainFrame: Module compiling took 8.243 seconds
+[2021.01.18-01.54.45:058][221]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.54.45:059][221]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.54.45:096][221]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0093 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.54.45:096][221]Display: HotReload took  8.3s.
+[2021.01.18-01.54.46:468][335]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.54.46:477][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.54.46:477][335]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:54:46)
+[2021.01.18-01.54.46:514][335]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.54.46:515][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001792s)
+[2021.01.18-01.54.46:516][335]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.54.46:516][335]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2021.01.18-01.54.46:516][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002857s)
+[2021.01.18-01.54.46:521][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.01.18-01.54.46:524][335]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.01.18-01.54.46:524][335]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.54.46:524][335]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.54.46:524][335]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.54.46:524][335]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.54.46:524][335]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.54.46:524][335]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.54.46:524][335]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.54.46:524][335]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.54.46:525][335]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.54.46:525][335]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.54.46:528][335]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.54.46:528][335]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.54.46:536][335]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.54.46:537][335]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.54.46:537][335]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.54.46:537][335]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.54.46:537][335]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.54.46:537][335]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.54.46:537][335]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.54.46:550][335]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.54.46:550][335]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.54.46:550][335]LogInit: FAudioDevice initialized.
+[2021.01.18-01.54.46:550][335]LogAudio: Display: Audio Device (ID: 20) registered with world 'MyProjectMap'.
+[2021.01.18-01.54.46:557][335]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.54.46:558][335]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.54.46
+[2021.01.18-01.54.46:558][335]LogWorld: Bringing up level for play took: 0.000510
+[2021.01.18-01.54.46:558][335]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.01.18-01.54.46:607][335]PIE: Server logged in
+[2021.01.18-01.54.46:608][335]PIE: Play in editor total start time 0.132 seconds.
+[2021.01.18-01.55.20:594][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.55.20:594][480]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.55.20:595][480]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.55.20:597][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.55.20:606][480]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.55.20:618][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.55.20:625][480]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-01.55.20:625][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.55.20:626][480]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.55.20:640][480]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.55.20:659][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2021.01.18-01.55.20:694][481]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.01.18-01.55.46:173][896]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_4)
+[2021.01.18-01.56.00:486][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.01.18-01.56.02:386][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_4)
+[2021.01.18-01.56.08:959][ 20]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_2)
+[2021.01.18-01.56.10:879][208]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_01)
+[2021.01.18-01.56.16:566][769]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_2)
+[2021.01.18-01.56.22:469][358]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_3)
+[2021.01.18-01.56.30:597][180]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_2)
+[2021.01.18-01.56.36:665][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.01.18-01.56.43:368][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Food_Bread_Dount_2)
+[2021.01.18-01.56.50:841][ 37]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.56.50:852][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.56.50:853][ 37]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:56:50)
+[2021.01.18-01.56.50:886][ 37]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.56.50:888][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001769s)
+[2021.01.18-01.56.50:889][ 37]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.56.50:889][ 37]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2021.01.18-01.56.50:889][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002725s)
+[2021.01.18-01.56.50:893][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.01.18-01.56.50:898][ 37]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2021.01.18-01.56.50:898][ 37]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.56.50:898][ 37]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.56.50:898][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.56.50:898][ 37]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.56.50:898][ 37]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.56.50:898][ 37]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.56.50:898][ 37]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.56.50:898][ 37]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.56.50:898][ 37]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.56.50:898][ 37]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.56.50:902][ 37]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.56.50:902][ 37]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.56.50:910][ 37]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.56.50:910][ 37]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.56.50:910][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.56.50:910][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.56.50:911][ 37]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.56.50:911][ 37]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.56.50:911][ 37]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.56.50:924][ 37]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.56.50:924][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.56.50:924][ 37]LogInit: FAudioDevice initialized.
+[2021.01.18-01.56.50:924][ 37]LogAudio: Display: Audio Device (ID: 21) registered with world 'MyProjectMap'.
+[2021.01.18-01.56.50:929][ 37]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.56.50:930][ 37]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.56.50
+[2021.01.18-01.56.50:930][ 37]LogWorld: Bringing up level for play took: 0.000606
+[2021.01.18-01.56.50:930][ 37]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.01.18-01.56.51:017][ 37]PIE: Server logged in
+[2021.01.18-01.56.51:018][ 37]PIE: Play in editor total start time 0.167 seconds.
+[2021.01.18-01.57.27:958][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.57.27:958][255]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.57.27:958][255]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-01.57.27:961][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.57.27:972][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-01.57.27:985][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-01.57.27:992][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-01.57.27:992][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.57.27:993][255]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-01.57.28:026][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.01.18-01.57.28:064][256]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.01.18-01.59.16:435][729]Candidate modules for hot reload:
+[2021.01.18-01.59.16:435][729]  MyProject
+[2021.01.18-01.59.16:435][729]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,3405 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-01.59.16:437][729]Warning: Starting HotReload took  0.0s.
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 01:59:19
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog:   [1/4] BirdActor.cpp
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog:   [2/4] UE4Editor-MyProject-3405.lib
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-3405.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-3405.exp
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog:   [3/4] UE4Editor-MyProject-3405.dll
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-3405.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-3405.suppressed.exp
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog:   [4/4] MyProjectEditor.target
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog: Total time in Parallel executor: 1.56 seconds
+[2021.01.18-01.59.19:948][  3]CompilerResultsLog: Total execution time: 3.33 seconds
+[2021.01.18-01.59.19:948][  3]LogMainFrame: MainFrame: Module compiling took 3.544 seconds
+[2021.01.18-01.59.19:974][  3]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2021.01.18-01.59.19:975][  3]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-01.59.20:001][  3]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0080 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-01.59.20:001][  3]Display: HotReload took  3.6s.
+[2021.01.18-01.59.21:317][113]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-01.59.21:326][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-01.59.21:326][113]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 01:59:21)
+[2021.01.18-01.59.21:350][113]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-01.59.21:352][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001866s)
+[2021.01.18-01.59.21:353][113]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-01.59.21:353][113]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2021.01.18-01.59.21:353][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.002948s)
+[2021.01.18-01.59.21:358][113]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.01.18-01.59.21:360][113]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2021.01.18-01.59.21:360][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-01.59.21:360][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-01.59.21:360][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-01.59.21:360][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-01.59.21:360][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-01.59.21:360][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-01.59.21:360][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-01.59.21:360][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-01.59.21:360][113]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-01.59.21:360][113]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-01.59.21:364][113]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-01.59.21:364][113]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-01.59.21:371][113]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-01.59.21:372][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-01.59.21:372][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-01.59.21:372][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-01.59.21:372][113]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-01.59.21:372][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-01.59.21:372][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-01.59.21:385][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-01.59.21:385][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-01.59.21:385][113]LogInit: FAudioDevice initialized.
+[2021.01.18-01.59.21:385][113]LogAudio: Display: Audio Device (ID: 22) registered with world 'MyProjectMap'.
+[2021.01.18-01.59.21:395][113]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-01.59.21:396][113]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-01.59.21
+[2021.01.18-01.59.21:396][113]LogWorld: Bringing up level for play took: 0.000492
+[2021.01.18-01.59.21:396][113]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.01.18-01.59.21:446][113]PIE: Server logged in
+[2021.01.18-01.59.21:447][113]PIE: Play in editor total start time 0.121 seconds.
+[2021.01.18-02.00.25:622][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-02.00.25:622][313]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-02.00.25:622][313]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-02.00.25:624][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-02.00.25:630][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-02.00.25:643][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-02.00.25:649][313]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-02.00.25:649][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-02.00.25:650][313]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-02.00.25:665][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-02.00.25:683][313]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2021.01.18-02.00.25:717][314]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.01.18-02.00.40:092][504]Candidate modules for hot reload:
+[2021.01.18-02.00.40:092][504]  MyProject
+[2021.01.18-02.00.40:093][504]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=MyProject,6314 MyProjectEditor Win64 Development -Project="C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject" "C:/Users/cat12/Documents/GitHub/Birdies/MyProject/MyProject.uproject"  -IgnoreJunk]
+[2021.01.18-02.00.40:095][504]Warning: Starting HotReload took  0.0s.
+[2021.01.18-02.00.43:684][807]CompilerResultsLog: New page: Compilation - 18 Jan 2021, 02:00:43
+[2021.01.18-02.00.43:684][807]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\cat12\Documents\GitHub\Birdies).
+[2021.01.18-02.00.43:684][807]CompilerResultsLog: Invalidating makefile for MyProjectEditor (BirdActor.cpp modified)
+[2021.01.18-02.00.43:684][807]CompilerResultsLog: Building MyProjectEditor...
+[2021.01.18-02.00.43:684][807]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.01.18-02.00.43:684][807]CompilerResultsLog: Building 4 actions with 12 processes...
+[2021.01.18-02.00.43:684][807]CompilerResultsLog:   [1/4] BirdActor.cpp
+[2021.01.18-02.00.43:684][807]CompilerResultsLog:   [2/4] UE4Editor-MyProject-6314.lib
+[2021.01.18-02.00.43:684][807]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-6314.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-6314.exp
+[2021.01.18-02.00.43:684][807]CompilerResultsLog:   [3/4] UE4Editor-MyProject-6314.dll
+[2021.01.18-02.00.43:684][807]CompilerResultsLog:      Creating library C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-6314.suppressed.lib and object C:\Users\cat12\Documents\GitHub\Birdies\MyProject\Intermediate\Build\Win64\UE4Editor\Development\MyProject\UE4Editor-MyProject-6314.suppressed.exp
+[2021.01.18-02.00.43:684][807]CompilerResultsLog:   [4/4] MyProjectEditor.target
+[2021.01.18-02.00.43:684][807]CompilerResultsLog: Total time in Parallel executor: 1.56 seconds
+[2021.01.18-02.00.43:684][807]CompilerResultsLog: Total execution time: 3.42 seconds
+[2021.01.18-02.00.43:684][807]LogMainFrame: MainFrame: Module compiling took 3.621 seconds
+[2021.01.18-02.00.43:702][807]LogHotReload: Re-instancing BirdActor after hot-reload.
+[2021.01.18-02.00.43:708][807]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MyProject' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2021.01.18-02.00.43:709][807]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
+[2021.01.18-02.00.43:735][807]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0077 seconds. Added 3605 classes and 861 folders.
+[2021.01.18-02.00.43:735][807]Display: HotReload took  3.7s.
+[2021.01.18-02.00.44:721][895]LogTemp: Repeating last play command: Selected Viewport
+[2021.01.18-02.00.44:730][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.01.18-02.00.44:730][895]PIE: New page: PIE session: MyProjectMap (18 Jan 2021, 02:00:44)
+[2021.01.18-02.00.44:730][895]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-02.00.44:732][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002236s)
+[2021.01.18-02.00.44:733][895]LogAIModule: Creating AISystem for world MyProjectMap
+[2021.01.18-02.00.44:734][895]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2021.01.18-02.00.44:734][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MyProjectMap.MyProjectMap to /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap (0.003467s)
+[2021.01.18-02.00.44:739][895]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2021.01.18-02.00.44:741][895]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2021.01.18-02.00.44:741][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.01.18-02.00.44:741][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.01.18-02.00.44:741][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.01.18-02.00.44:741][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.01.18-02.00.44:741][895]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.01.18-02.00.44:741][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.01.18-02.00.44:741][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.01.18-02.00.44:741][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.01.18-02.00.44:741][895]LogAudio: Display: Using built-in audio occlusion.
+[2021.01.18-02.00.44:741][895]LogAudioMixer: Display: Initializing audio mixer.
+[2021.01.18-02.00.44:745][895]LogAudioMixer: Display: 0: FrontLeft
+[2021.01.18-02.00.44:745][895]LogAudioMixer: Display: 1: FrontRight
+[2021.01.18-02.00.44:753][895]LogAudioMixer: Display: Using Audio Device XZ350CU (NVIDIA High Definition Audio)
+[2021.01.18-02.00.44:753][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.01.18-02.00.44:753][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.01.18-02.00.44:754][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.01.18-02.00.44:754][895]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.01.18-02.00.44:754][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.01.18-02.00.44:754][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.01.18-02.00.44:767][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.01.18-02.00.44:767][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.01.18-02.00.44:767][895]LogInit: FAudioDevice initialized.
+[2021.01.18-02.00.44:767][895]LogAudio: Display: Audio Device (ID: 23) registered with world 'MyProjectMap'.
+[2021.01.18-02.00.44:774][895]LogLoad: Game class is 'BP_MyProjectGameModeBase_C'
+[2021.01.18-02.00.44:775][895]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MyProjectMap.MyProjectMap up for play (max tick rate 0) at 2021.01.18-02.00.44
+[2021.01.18-02.00.44:775][895]LogWorld: Bringing up level for play took: 0.000479
+[2021.01.18-02.00.44:775][895]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.01.18-02.00.44:825][895]PIE: Server logged in
+[2021.01.18-02.00.44:826][895]PIE: Play in editor total start time 0.096 seconds.
+[2021.01.18-02.01.19:473][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-02.01.19:473][231]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MyProjectMap
+[2021.01.18-02.01.19:473][231]LogWorld: UWorld::CleanupWorld for MyProjectMap, bSessionEnded=true, bCleanupResources=true
+[2021.01.18-02.01.19:475][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-02.01.19:486][231]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.01.18-02.01.19:498][231]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.01.18-02.01.19:504][231]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.01.18-02.01.19:504][231]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-02.01.19:505][231]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.01.18-02.01.19:520][231]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-02.01.19:539][231]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.01.18-02.01.19:573][232]LogPlayLevel: Display: Destroying online subsystem :Context_27

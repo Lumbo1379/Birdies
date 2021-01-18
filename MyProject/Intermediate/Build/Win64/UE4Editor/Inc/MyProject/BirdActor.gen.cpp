@@ -59,6 +59,10 @@ void EmptyLinkFunctionForGeneratedCodeBirdActor() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SeparationRadius;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AvoidanceLength_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AvoidanceLength;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SeparationScalar_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SeparationScalar;
@@ -144,6 +148,13 @@ void EmptyLinkFunctionForGeneratedCodeBirdActor() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABirdActor_Statics::NewProp_SeparationRadius = { "SeparationRadius", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABirdActor, SeparationRadius), METADATA_PARAMS(Z_Construct_UClass_ABirdActor_Statics::NewProp_SeparationRadius_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABirdActor_Statics::NewProp_SeparationRadius_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABirdActor_Statics::NewProp_AvoidanceLength_MetaData[] = {
+		{ "Category", "Boids" },
+		{ "ModuleRelativePath", "BirdActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABirdActor_Statics::NewProp_AvoidanceLength = { "AvoidanceLength", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABirdActor, AvoidanceLength), METADATA_PARAMS(Z_Construct_UClass_ABirdActor_Statics::NewProp_AvoidanceLength_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABirdActor_Statics::NewProp_AvoidanceLength_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABirdActor_Statics::NewProp_SeparationScalar_MetaData[] = {
 		{ "Category", "Boids" },
 		{ "ModuleRelativePath", "BirdActor.h" },
@@ -192,6 +203,7 @@ void EmptyLinkFunctionForGeneratedCodeBirdActor() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABirdActor_Statics::NewProp_Velocity,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABirdActor_Statics::NewProp_Radius,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABirdActor_Statics::NewProp_SeparationRadius,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABirdActor_Statics::NewProp_AvoidanceLength,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABirdActor_Statics::NewProp_SeparationScalar,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABirdActor_Statics::NewProp_AlignmentScalar,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABirdActor_Statics::NewProp_CohesionScalar,
@@ -226,7 +238,7 @@ void EmptyLinkFunctionForGeneratedCodeBirdActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABirdActor, 850836145);
+	IMPLEMENT_CLASS(ABirdActor, 3724320625);
 	template<> MYPROJECT_API UClass* StaticClass<ABirdActor>()
 	{
 		return ABirdActor::StaticClass();
