@@ -17,7 +17,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MyProject_Source_MyProject_PlayerCharacter_h_15_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSpawnBird); \
-	DECLARE_FUNCTION(execMoveUp); \
 	DECLARE_FUNCTION(execMoveRight); \
 	DECLARE_FUNCTION(execMoveForward);
 
@@ -25,7 +24,6 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define MyProject_Source_MyProject_PlayerCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSpawnBird); \
-	DECLARE_FUNCTION(execMoveUp); \
 	DECLARE_FUNCTION(execMoveRight); \
 	DECLARE_FUNCTION(execMoveForward);
 

@@ -40,10 +40,6 @@ public:
 	UFUNCTION()
 		void MoveRight(float Value);
 
-	// Handles input for moving right and left
-	UFUNCTION()
-		void MoveUp(float Value);
-
 	// Handles action for spawning a bird
 	UFUNCTION()
 		void SpawnBird();

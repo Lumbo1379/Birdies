@@ -29,6 +29,7 @@ public:
 
 	UFUNCTION()
 		void SpawnBird();
+		void SpawnBird(int amount);
 
 private:
 	TArray<ABirdActor*> Birds;

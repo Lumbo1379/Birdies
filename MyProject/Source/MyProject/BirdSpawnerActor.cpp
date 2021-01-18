@@ -16,6 +16,8 @@ void ABirdSpawnerActor::BeginPlay()
 {
 	Super::BeginPlay();
 
+
+	SpawnBird(500);
 }
 
 // Called every frame
@@ -51,5 +53,11 @@ void ABirdSpawnerActor::SpawnBird()
 			}
 		}
 	}
+}
+
+void ABirdSpawnerActor::SpawnBird(int amount)
+{
+	for (int i = 0; i < amount; i++)
+		SpawnBird();
 }
 
