@@ -17,7 +17,7 @@ void ABirdSpawnerActor::BeginPlay()
 	Super::BeginPlay();
 
 
-	SpawnBird(500);
+	SpawnBird(650);
 }
 
 // Called every frame
