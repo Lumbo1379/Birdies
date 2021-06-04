@@ -45,7 +45,7 @@ ABirdActor::ABirdActor()
 
 	MaxVelocity = 200;
 	Velocity = { 50, 100, 25 };
-	Radius = 500;
+	Radius = 250;
 	SeparationRadius = 200;
 	CohesionScalar = 1;
 	AlignmentScalar = 1;
